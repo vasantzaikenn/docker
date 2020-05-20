@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginxdemo:
+    image: nginx
+    ports:
+    - 80:80
+  httpddemo:
+    image: httpd
+    ports:
+    - 85:80
